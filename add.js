@@ -3,7 +3,7 @@ $(document).ready(function(){
 });
 
 var lets = Math.floor(Math.random() * 51);
-var rets = Math.floor(Math.random() * 51)
+var rets = Math.floor(Math.random() * 51);
 var multi = lets * rets;
 var divis = lets / rets;
 let add = lets + rets;
