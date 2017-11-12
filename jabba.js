@@ -12,18 +12,18 @@ var failmount = 0;
 while (rets > lets) {
   rets--;
 };
-while (lets / rets % 1 != 0 ) {
+while (lets / rets % 1 !== 0 ) {
 rets--;
 };
 while (rets == -1){
 fixrets();
 };
 function fixrets() {
-    for (i = 0; i < Math.floor(Math.random() * 13);j++) {
+    for (i = 0; i < Math.floor(Math.random() * 13);i++) {
         rets++;
     };
 };
-if (rets == 0) {
+if (rets === 0) {
     rets = lets;
     lets = 0;
 }else {
